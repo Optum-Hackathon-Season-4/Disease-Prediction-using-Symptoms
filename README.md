@@ -1,6 +1,6 @@
-# Diease Prediction using Symtomps 💗🧑‍⚕️🏥
+# Diease Prediction using Symptoms 💗🧑‍⚕️🏥
 
-### This repository aims to predict the disease of the patient on the basis of the various types of symtomps possessed.
+### This repository aims to predict the disease of the patient on the basis of the various types of Symptoms possessed.
 <br>
 
 ### <strong>Dataset used 📖</strong> : https://www.kaggle.com/code/rahulsinghal1904/disease-prediction-using-symptoms/data?select=Training.csv

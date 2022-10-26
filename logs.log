@@ -2202,3 +2202,48 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2022-10-26 14:08:02,793:INFO:Fitting Model
 2022-10-26 14:08:35,763:INFO:Visual Rendered Successfully
 2022-10-26 14:08:36,287:INFO:plot_model() successfully completed......................................
+2022-10-26 14:22:40,277:INFO:Initializing plot_model()
+2022-10-26 14:22:40,282:INFO:plot_model(plot=auc, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=6626, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000012A4896B970>, system=True)
+2022-10-26 14:22:40,282:INFO:Checking exceptions
+2022-10-26 14:22:40,299:INFO:Preloading libraries
+2022-10-26 14:22:40,299:INFO:Copying training dataset
+2022-10-26 14:22:40,299:INFO:Plot type: auc
+2022-10-26 14:22:40,531:INFO:Fitting Model
+2022-10-26 14:22:40,531:WARNING:C:\Users\SANIDHIYA\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\base.py:450: UserWarning: X does not have valid feature names, but LogisticRegression was fitted with feature names
+  warnings.warn(
+2022-10-26 14:22:40,533:INFO:Scoring test/hold-out set
+2022-10-26 14:22:41,567:INFO:Visual Rendered Successfully
+2022-10-26 14:22:42,204:INFO:plot_model() successfully completed......................................
+2022-10-26 14:23:26,542:INFO:Initializing plot_model()
+2022-10-26 14:23:26,542:INFO:plot_model(plot=boundary, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=6626, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000012A4896B970>, system=True)
+2022-10-26 14:23:26,542:INFO:Checking exceptions
+2022-10-26 14:23:26,558:INFO:Preloading libraries
+2022-10-26 14:23:26,558:INFO:Copying training dataset
+2022-10-26 14:23:26,558:INFO:Plot type: boundary
+2022-10-26 14:23:26,697:INFO:Fitting StandardScaler()
+2022-10-26 14:23:26,727:INFO:Fitting PCA()
+2022-10-26 14:23:26,886:INFO:Fitting Model
+2022-10-26 14:23:28,050:WARNING:C:\Users\SANIDHIYA\AppData\Local\Programs\Python\Python310\lib\site-packages\yellowbrick\contrib\classifier\boundaries.py:467: UserWarning: You passed a edgecolor/edgecolors ('black') for an unfilled marker ('+').  Matplotlib is ignoring the edgecolor in favor of the facecolor.  This behavior may change in the future.
+  self.ax.scatter(
+2022-10-26 14:23:30,012:INFO:Visual Rendered Successfully
+2022-10-26 14:23:30,651:INFO:plot_model() successfully completed......................................
+2022-10-26 14:24:01,097:INFO:Initializing plot_model()
+2022-10-26 14:24:01,099:INFO:plot_model(plot=feature, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=6626, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000012A4896B970>, system=True)
+2022-10-26 14:24:01,099:INFO:Checking exceptions
+2022-10-26 14:24:01,114:INFO:Preloading libraries
+2022-10-26 14:24:01,114:INFO:Copying training dataset
+2022-10-26 14:24:01,114:INFO:Plot type: feature
+2022-10-26 14:24:01,657:INFO:Visual Rendered Successfully
+2022-10-26 14:24:02,353:INFO:plot_model() successfully completed......................................
